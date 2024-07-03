@@ -13,6 +13,8 @@
 # full path to the NetMHCpan 2.8 directory (mandatory)
 setenv	NMHOME	/holdmhc
 
+TMPDIR = /holdmhc/tempdirs
+
 # determine where to store temporary files (must be writable to all users)
 
 if ( ${?TMPDIR} == 0 ) then
