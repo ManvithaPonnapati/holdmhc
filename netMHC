@@ -11,7 +11,7 @@
 ###############################################################################
 
 # full path to the NetMHCpan 2.8 directory (mandatory)
-setenv	NMHOME	/usr/cbs/packages/netMHC/4.0/netMHC-4.0
+setenv	NMHOME	/holdmhc
 
 # determine where to store temporary files (must be writable to all users)
 
